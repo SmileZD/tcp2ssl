@@ -1,0 +1,16 @@
+{
+  "name": "tcp2ssl",
+  "version": "1.0.0",
+  "description": "tcp to ssl",
+  "main": "tcp2ssl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvbu",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "net": "^1.0.2",
+    "tls": "^0.0.1"
+  }
+}
