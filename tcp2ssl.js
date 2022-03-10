@@ -6,7 +6,7 @@ var args = minimist(process.argv.slice(2));
 var port = 8888;
 var serverip = '127.0.0.1';
 var serverport = 8899;
-if(args.p){port=args.port}
+if(args.p){port=args.p}
 if(args.ip){serverip=args.ip}
 if(args.p2){serverport=args.p2}
 function getLocalIp(){
