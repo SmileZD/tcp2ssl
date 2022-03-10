@@ -1,5 +1,6 @@
 var net = require('net');
 var tls = require('tls');
+var os = require('os');
 var minimist = require('minimist');
 var args = minimist(process.argv.slice(2));
 var port = 8888;
